@@ -20,8 +20,23 @@ output: caching.html
 --
 
 ### HTTP Expiration and Validation
+* Expiration = Can i take the ressource from my cache without requesting the server?
+* Validation = Check on the server, if my ressource is still valid
 
-#### Expiration
+--
+
+#### Expiration - Expires Header
+
+`Expires: Fri, 30 Oct 1998 14:19:41 GMT`
+
++ easy to use
++ good for static ressources (long caching time)
+- Date is based on server time
+
+--
+
+#### Expiration - Cache Control Header
+ 
 Cache-Control: max-age=600, s-maxage=600
 private / public
 
