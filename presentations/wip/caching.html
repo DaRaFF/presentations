@@ -405,7 +405,20 @@ pre .chunk {
 </ul>
 </section>
     <section class="slide"><h3 id="http-expiration-and-validation">HTTP Expiration and Validation</h3>
-<h4 id="expiration">Expiration</h4>
+<ul>
+<li>Expiration = Can i take the ressource from my cache without requesting the server?</li>
+<li>Validation = Check on the server, if my ressource is still valid</li>
+</ul>
+</section>
+    <section class="slide"><h4 id="expiration-expires-header">Expiration - Expires Header</h4>
+<p><code>Expires: Fri, 30 Oct 1998 14:19:41 GMT</code></p>
+<ul>
+<li>easy to use</li>
+<li>good for static ressources (long caching time)</li>
+<li>Date is based on server time</li>
+</ul>
+</section>
+    <section class="slide"><h4 id="expiration-cache-control-header">Expiration - Cache Control Header</h4>
 <p>Cache-Control: max-age=600, s-maxage=600
 private / public</p>
 <h4 id="validation">Validation</h4>
