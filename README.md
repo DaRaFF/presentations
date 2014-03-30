@@ -3,7 +3,7 @@ presentations
 
 Some presentations which i've created with [cleaver](https://github.com/jdan/cleaver)
 
-Check out my presentations at //daraff.github.io/presentations/
+Check out my presentations at [presentations](//daraff.github.io/presentations/)
 
 #Cleaver usage
 ```bash
