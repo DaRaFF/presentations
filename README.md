@@ -5,7 +5,7 @@ Some presentations which i've created with [cleaver](https://github.com/jdan/cle
 
 Check out my presentations at [presentations](//daraff.github.io/presentations/)
 
-#Cleaver usage
+#Cleaver usage for building a new presentation
 ```bash
 
 #installation
